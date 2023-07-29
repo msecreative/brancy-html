@@ -39,7 +39,7 @@ body {
   font-weight: 400;
   font-style: normal;
   line-height: 1.75;
-  position: relative;
+  /* position: relative; */
   visibility: visible;
   overflow-x: hidden;
   color: #364958;
@@ -181,11 +181,25 @@ hr {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+  .breadcrumb-style1 {
+    margin-top: 150px!important;
+  }
+
+  section.page-header-area {
+    margin-top: 150px!important;
+  }
 }
 @media only screen and (max-width: 767px) {
   .section-space {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .breadcrumb-style1 {
+    margin-top: 115px!important;
+  }
+
+  section.page-header-area {
+    margin-top: 115px!important;
   }
 }
 
@@ -212,6 +226,8 @@ hr {
   .header-area {
     padding: 19px 0 18px;
   }
+
+  
 }
 .header-area .container {
   max-width: 1733px;
@@ -225,6 +241,8 @@ hr {
   width: 100%;
   z-index: 9;
 }
+
+
 
 .header-navigation {
   position: relative;
@@ -885,6 +903,7 @@ hr {
     line-height: 30px;
     padding-bottom: 7px;
   }
+  
 }
 .section-title p {
   max-width: 430px;
@@ -901,7 +920,9 @@ hr {
 .breadcrumb-style1 {
   background: #FFFAEF;
   padding: 36px 0 20px;
+  margin-top: 175px;
 }
+
 
 .breadcrumb-item {
   color: #494949;
@@ -2550,6 +2571,12 @@ hr {
 /*----------------------------------------*/
 /*  Product CSS
 /*----------------------------------------*/
+
+section.page-header-area {
+  background: #FFFAEF;
+  padding: 50px 0;
+  margin-top: 175px;
+}
 .product-item .product-thumb {
   border-radius: 10px;
   overflow: hidden;
