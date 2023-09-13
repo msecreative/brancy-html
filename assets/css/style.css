@@ -227,8 +227,78 @@ hr {
     padding: 19px 0 18px;
   }
 
+  .spcial-header .col-md-6.col-lg-6.col-xl-6 {
+    display: none;
+}
+.special-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.announcement-left {
+  display: none;
+}
+
+.accouncement-bar {
+  margin-top: -18px;
+}
+
   
 }
+
+@media only screen and (min-width:767px) {
+  
+}
+
+/* Header top css */
+.msg-title {
+  margin: 0;
+  color: #fff;
+}
+.accouncement-bar {
+  background-color: #E2176E;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.announcement-bar .social-links {
+  margin-top: -8px;
+  padding-top: .8em;
+  padding-bottom: .8em;
+}
+
+.social-links ul, .social-links-list li {
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 15px;
+}
+
+ul.social-links-list li a {
+  margin: 8px 0 0;
+  margin-inline-start: 10px;
+  font-size: 18px;
+}
+
+.accouncement-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.announcement-left {
+  flex: 2 0 0;
+}
+
+.announcement-right{
+  flex: 2 0 0;
+  text-align: end;
+}
+
+
+
 .header-area .container {
   max-width: 1733px;
 }
@@ -278,7 +348,7 @@ hr {
   padding-right: 0;
 }
 .main-nav > li > a {
-  color: #fff;
+  color: #2F0050;
   font-size: 16px;
   font-weight: 500;
   height: 144px;
@@ -307,10 +377,10 @@ hr {
   }
 }
 .main-nav > li > a:hover {
-  color: #2F0050;
+  color: #E2176E ;
 }
 .main-nav .has-submenu:hover a {
-  color: #2F0050;
+  color: #E2176E ;
 }
 .main-nav .has-submenu:hover .submenu-nav, .main-nav .has-submenu:hover .submenu-nav-mega {
   margin-top: 0;
