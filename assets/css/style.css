@@ -45,6 +45,11 @@ body {
   color: #364958;
   background-color: #FFFFFF;
 }
+/* @media only screen and (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
     font-size: 15px;
@@ -57,6 +62,16 @@ body {
   .resnav{
     padding: 10px 0;
   }
+
+  .desktop-only{
+    display: none;
+  }
+
+  .header-action i {
+    font-size: 28px;
+  }
+
+
 }
 @media only screen and (max-width: 767px) {
   body {
@@ -245,14 +260,24 @@ hr {
   
 }
 
-@media only screen and (min-width:767px) {
-  
+@media only screen and (max-width:767px) {
+  .msg-title {
+    font-size: 12px;
+}
+
+.desktop-only{
+  display: none;
+}
+
+.header-action i {
+  font-size: 25px;
+}
 }
 
 /* Header top css */
 .msg-title {
   margin: 0;
-  color: #fff;
+  color: #000;
 }
 .accouncement-bar {
   background-color: #000000;
